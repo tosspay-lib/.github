@@ -4,7 +4,7 @@
 ## 예상문법
 ```rs
 tp = Tosspay("toss-id")
-tp.addEvent(Event.Send, 핸들러함수(이름: str, 설명: str, 금액: str))
+tp.addEvent(Event.Send, 핸들러함수(이름: str, 설명: str, 금액: int))
 
 tp = Tosspay("toss-id")
 tp.payment(결제금액: int, 핸들러함수 { 코드가 같을때 실행할꺼 })
